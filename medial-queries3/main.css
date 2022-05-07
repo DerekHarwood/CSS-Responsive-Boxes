@@ -1,3 +1,162 @@
 body {
   background: peachpuff;
 }
+.container {
+  background-color: yellowgreen;
+  border: 5px;
+  min-height: 650px;
+  justify-content: space-between;
+  padding: 3px;
+}
+.a {
+  background-color: pink;
+  border: 5px;
+  min-height: 125px;
+  min-width: 25px;
+  margin: 3px;
+}
+.b {
+  background-color: blue;
+  border: 5px;
+  min-height: 125px;
+  min-width: 300px;
+  margin: 3px;
+}
+.c {
+  background-color: blueviolet;
+  border: 5px;
+  min-height: 125px;
+  min-width: 300px;
+  margin: 3px;
+}
+.d {
+  background-color: green;
+  border: 5px;
+  min-height: 125px;
+  min-width: 300px;
+  margin: 3px;
+}
+.e {
+  background-color: gold;
+  border: 5px;
+  min-height: 125px;
+  min-width: 300px;
+  margin: 3px;
+}
+.f {
+  background-color: silver;
+  border: 5px;
+  min-height: 125px;
+  min-width: 300px;
+  margin: 3px;
+}
+.g {
+  background-color: darkcyan;
+  border: 5px;
+  min-height: 125px;
+  min-width: 300px;
+  margin: 3px;
+}
+.h {
+  background-color: rgb(86, 61, 31);
+  border: 5px;
+  min-height: 255px;
+  min-width: 500px;
+  margin: 3px;
+  float: right;
+}
+.b, .c, .d {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.e, .f, .g {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+aside {
+  width: 65%;
+  display: inline-block;
+  flex-direction: column;
+  flex-basis: 70%;
+  justify-content: stretch;
+}
+@media(max-width: 600px) {
+  .container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .a {
+    background-color: pink;
+    border: 5px;
+    min-height: 75px;
+    min-width: 25px;
+  }
+  .b {
+    background-color: blue;
+    border: 5px;
+    min-height: 100px;
+    min-width: 120px;
+    max-width: 120px;
+  }
+  .c {
+    background-color: blueviolet;
+    border: 5px;
+    min-height: 100px;
+    min-width: 120px;
+    max-width: 120px;
+  }
+  .d {
+    background-color: green;
+    border: 5px;
+    min-height: 100px;
+    min-width: 120px;
+    max-width: 120px;
+  }
+  .e {
+    background-color: gold;
+    border: 5px;
+    min-height: 100px;
+    min-width: 120px;
+    max-width: 120px;
+  }
+  .f {
+    background-color: silver;
+    border: 5px;
+    min-height: 100px;
+    min-width: 120px;
+    max-width: 120px;
+  }
+  .g {
+    border: 5px;
+    min-height: 100px;
+    min-width: 120px;
+    max-width: 120px;
+  }
+.h {
+  border: 5px;
+    min-height: 300px;
+    min-width: 150px;
+}
+  aside  {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .h {
+    float: none;
+}
+  /* .b, .c, .d {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+  /* .e, .f, .g {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+  } */
+}
